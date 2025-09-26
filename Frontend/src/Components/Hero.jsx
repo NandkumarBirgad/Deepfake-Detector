@@ -66,7 +66,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl lg:text-2xl text-white/80 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            QuckAi uses advanced AI and machine learning to detect deepfakes and manipulated media, 
+            DeepguardAI uses advanced AI and machine learning to detect deepfakes and manipulated media, 
             helping you combat misinformation and enhance digital safety in real-time.
           </motion.p>
 

@@ -25,7 +25,7 @@ const Header = () => {
                 <Shield className="h-8 w-8 text-white" />
                 <div className="absolute inset-0 bg-white/20 rounded-full blur-xl"></div>
               </div>
-              <span className="text-2xl font-bold text-white">QuickAi</span>
+              <span className="text-2xl font-bold text-white">DeepguardAI</span>
             </motion.div>
 
             {/* Desktop Navigation */}

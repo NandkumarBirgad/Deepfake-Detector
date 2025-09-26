@@ -18,7 +18,7 @@ const Footer = () => {
                 <Shield className="h-8 w-8 text-white" />
                 <div className="absolute inset-0 bg-white/20 rounded-full blur-xl"></div>
               </div>
-              <span className="text-2xl font-bold text-white">QuickAi</span>
+              <span className="text-2xl font-bold text-white">DeepguardAI</span>
             </motion.div>
             
             <p className="text-white/80 mb-6 max-w-md leading-relaxed">
@@ -89,11 +89,11 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/60 text-sm">
-              © 2025 QuickAi. All rights reserved. Built with ❤️ for digital safety.
+              © 2025 DeepguardAI. All rights reserved. Built with ❤️ for digital safety.
             </p>
             
             <div className="flex items-center space-x-6 text-sm text-white/60">
-              <span>Made by QuickAiTeam</span>
+              <span>Made by DeepguardAI Team</span>
               <span>•</span>
             </div>
           </div>

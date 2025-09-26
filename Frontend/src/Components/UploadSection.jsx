@@ -13,7 +13,7 @@ const UploadSection = ({ onAnalysisResult, isAnalyzing, setIsAnalyzing }) => {
   const imageInputRef = useRef(null); // New ref for image input
   const videoInputRef = useRef(null); // New ref for video input
 
-  const API_BASE_URL = 'https://sheguard.onrender.com' || 'http://127.0.0.1:5000';
+  {/*const API_BASE_URL = 'https://sheguard.onrender.com' || 'http://127.0.0.1:5000';*/}
   
   const ALLOWED_IMAGE_TYPES = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/bmp', 'image/webp'];
   const ALLOWED_VIDEO_TYPES = ['video/mp4', 'video/quicktime', 'video/webm', 'video/x-msvideo'];
@@ -441,4 +441,4 @@ const UploadSection = ({ onAnalysisResult, isAnalyzing, setIsAnalyzing }) => {
   );
 };
 
-export default UploadSection;
+export default UploadSection; 

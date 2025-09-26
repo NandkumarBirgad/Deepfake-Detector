@@ -100,7 +100,7 @@ const Features = () => {
         >
           <div className="text-center mb-12">
             <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              How QuickAi Works
+              How DeepguardAI Works
             </h3>
             <p className="text-lg text-white/80 max-w-2xl mx-auto">
               Our three-step process ensures comprehensive analysis and accurate detection
