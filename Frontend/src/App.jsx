@@ -22,12 +22,13 @@ function App() {
           <Hero />
           
           <motion.div
+            id="upload-section"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="container mx-auto px-4 py-16"
           >
-            <UploadSection 
+            <UploadSection
               onAnalysisResult={setAnalysisResult}
               isAnalyzing={isAnalyzing}
               setIsAnalyzing={setIsAnalyzing}
