@@ -80,7 +80,7 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0,0,0,0.2)" }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => document.getElementById('upload-section').scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('upload-section').scrollIntoView({ behavior: 'auto' })}
               className="bg-white text-indigo-600 px-8 py-4 rounded-full font-semibold text-lg shadow-2xl hover:shadow-white/25 transition-all duration-300 flex items-center space-x-2"
             >
               <Shield className="h-5 w-5" />
